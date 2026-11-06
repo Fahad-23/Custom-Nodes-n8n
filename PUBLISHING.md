@@ -4,7 +4,7 @@ Two separate things: putting the package on npm (which makes it installable in a
 
 ## 1. GitHub repository
 
-1. Create an empty public repository named `n8n-nodes-jobber` under your GitHub account. The package.json already points at `https://github.com/Fahad-23/n8n-nodes-jobber`. If you use a different name or owner, update `homepage` and `repository.url` in package.json and the two `primaryDocumentation` URLs in the `*.node.json` files.
+1. The code lives in the public repository `https://github.com/Fahad-23/Custom-Nodes-n8n`, which package.json and the codex files point at. The npm package name stays `n8n-nodes-jobber`; the repo name does not have to match, but the npm author and the repo owner must be the same person.
 2. From this folder:
 
 ```bash
@@ -20,7 +20,7 @@ git branch -M main
 ```
 
 ```bash
-git remote add origin git@github.com:Fahad-23/n8n-nodes-jobber.git
+git remote add origin git@github.com:Fahad-23/Custom-Nodes-n8n.git
 ```
 
 ```bash
