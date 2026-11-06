@@ -113,6 +113,10 @@ Built and linted with `@n8n/node-cli`, no runtime dependencies, tested against n
 
 Version 0.1.0. The OAuth flow, request transport, pagination, mutation handling and webhook signature check are implemented and unit-checked. Default field selections follow the Jobber schema as published; if a field in a default selection is rejected by your API version, use the **Fields** option and please open an issue.
 
+## How it works
+
+[docs/GUIDE.md](docs/GUIDE.md) explains how n8n nodes work in general, how this package was researched, designed and tested, and follows a request through the code file by file.
+
 ## Resources
 
 - [Jobber developer docs](https://developer.getjobber.com/docs/)
