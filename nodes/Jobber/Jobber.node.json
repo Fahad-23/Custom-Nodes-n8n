@@ -1,0 +1,14 @@
+{
+	"node": "n8n-nodes-jobber.jobber",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Sales", "Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{ "url": "https://developer.getjobber.com/docs/building_your_app/app_authorization" }
+		],
+		"primaryDocumentation": [
+			{ "url": "https://github.com/Fahad-23/n8n-nodes-jobber#readme" }
+		]
+	}
+}
